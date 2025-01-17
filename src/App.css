@@ -1,0 +1,21 @@
+body{
+    background-image: url('./assets/a2.jpg'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the section */
+    background-position: center; /* Center the image */
+   
+    
+}
+.bg-trans{
+    opacity: 70%;
+}
+/* Hides scrollbar while allowing scrolling */
+html {
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+   
+  }
