@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import {logo} from '/src/assets/logo.jpg'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,7 +14,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0 ">
             <NavLink to="/" className="text-2xl font-bold">
-            <div className=' flex'> <img src="/assets/logo.jpg" className='w-10 h-10 rounded-full' alt="" /> <span className='text-blue-950'>CharteredPro</span></div>
+            <div className=' flex'> <img src={logo} className='w-10 h-10 rounded-full' alt="" /> <span className='text-blue-950'>CharteredPro</span></div>
             </NavLink>
           </div>
 

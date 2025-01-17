@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../components/Footer";
+import accimg from '/src/assets/account.jpg'
 
 const AboutUs = () => {
   return (
@@ -89,7 +90,7 @@ const AboutUs = () => {
             {/* Image Section */}
             <div>
               <img
-                src="../assets/account.jpg"
+                src={accimg}
                 alt="About Us"
                 className="rounded-lg shadow-lg"
               />
