@@ -48,7 +48,7 @@ const SearchBar = ({ users, onSelect }) => {
             </li>
           ))}
         </ul>
-      )}0
+      )}
     </div>
   );
 };
