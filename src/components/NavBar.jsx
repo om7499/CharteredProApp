@@ -13,7 +13,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0 ">
             <NavLink to="/" className="text-2xl font-bold">
-            <div className=' flex'> <img src="./src/assets/cp-logo.jpg" className='w-10 h-10 rounded-full' alt="" /> <span className='text-blue-950'>CharteredPro</span></div>
+            <div className=' flex'> <img src="./src/assets/cplogo.jpg" className='w-10 h-10 rounded-full' alt="" /> <span className='text-blue-950'>CharteredPro</span></div>
             </NavLink>
           </div>
 
