@@ -2,6 +2,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faUsers, faClock,faCheck, faFileAlt } from '@fortawesome/free-solid-svg-icons';
 import Footer from '../components/Footer'
+import { NavLink } from 'react-router-dom';
 
 const HomePage = () => {
   return (
@@ -11,9 +12,9 @@ const HomePage = () => {
       <div className=" py-20 px-8 text-center border-b-2">
         <h1 className="text-4xl font-bold text-blue-950 mb-4">Find Expert Chartered Accountants Near You</h1>
         <p className="text-lg mb-6">Your one-stop platform for trusted financial guidance and accounting solutions. <br/> Let us connect you with the best professionals.</p>
-        <a href="/account" className="bg-white text-blue-600 px-6 py-2 font-medium rounded-md hover:bg-gray-200">
+        <NavLink to="/account" className="bg-white text-blue-600 px-6 py-2 font-medium rounded-md hover:bg-gray-200">
           Search Now
-        </a>
+        </NavLink>
       </div>
       {/* hero section end */}
 
