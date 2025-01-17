@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "../components/Footer";
-import accimg from '/src/assets/account.jpg'
+import accimg from '../assets/account.jpg'
 
 const AboutUs = () => {
   return (
