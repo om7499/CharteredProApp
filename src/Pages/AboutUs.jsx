@@ -89,7 +89,7 @@ const AboutUs = () => {
             {/* Image Section */}
             <div>
               <img
-                src="./src/assets/account.jpg"
+                src="../assets/account.jpg"
                 alt="About Us"
                 className="rounded-lg shadow-lg"
               />
