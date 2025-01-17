@@ -7,7 +7,7 @@ const ResultList = ({users}) => {
     return <p className='text-center text-gray-500'>No accounts Found</p>
   }
   return (
-    <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+    <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
       {
         users.map((account)=>(
           <div key={account.id}
